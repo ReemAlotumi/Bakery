@@ -1,0 +1,457 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+#bakery-header{
+background-image: url(images/drew-coffman-1872.jpg);
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+background-color: #FFFFFF;
+
+}
+
+.navbar{
+    background-color: #8E7754;
+    background-image: none;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.navbar .logo img{
+width: 180px;
+float: left;
+padding-left: 75px;
+padding-top: 20px;
+
+
+}
+
+
+.navbar .list{
+    float: right;
+    padding-right: 85px;
+    padding-top: 37px;
+    text-decoration: none;
+    color: #fff;
+    font-weight:400;
+    text-align:left;
+text-indent:0px;
+
+}
+
+ .navbar .list a {
+color: #ffffff;
+font-size:18px;
+font-family : 'Alegreya', serif;
+text-decoration: none;
+    
+}
+.navbar .list a:hover{
+color:
+rgb(224, 198, 144);
+text-decoration: none; 
+}
+
+
+.navbar .list ul li{
+list-style: none;
+display:inline-block;   
+font-size: 20px;
+margin: 10px;
+color: white;
+
+}
+.logo{
+width: 100%;
+
+}
+.clear{
+clear: both;
+}
+    
+
+.intro{
+    text-align: center; 
+    padding-top:175px;
+    color: #FFFFFF;
+}
+.intro h1{
+    font-size:75px;
+    font-weight: 400;
+    margin:10px;
+    font-family : 'Alegreya', serif;
+    
+    
+    
+}
+.intro h2{
+    font-size:22px;
+    font-weight: 400;
+    margin:10px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+.intro p{
+    font-size:24px;
+    font-weight: 400;
+    margin:15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    
+    
+}
+.intro button{
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 20px 30px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 17px;
+    border-radius:15px;
+    margin:20px 5px;    
+}
+.button1{
+    background-color: #8E7754;
+    border:solid #8E7754 2px;
+}
+.button1:hover{
+    color: #0c0c0c;
+    background-color: #FFFFFF;
+}
+.button2{
+    background-color: transparent;
+    border:solid #FFFFFF 2px;
+}
+.button2:hover{
+    color: #0c0c0c;
+    background-color: #FFFFFF;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.aboutus{
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: justify;
+    float: left;
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+
+}
+.info{
+    width:90%;
+    margin:auto;
+}
+.about-img{
+    float: left;
+    width:50%;
+}
+.about-img img{
+    width:95%;
+}
+.about-txt{
+    width:45%;
+    float:right; 
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+}
+.about-txt img{
+    width:7%;
+    vertical-align:middle;
+    background-color: white;
+    margin-right:10px;
+    border: solid #b4b2b2 1px;
+    border-radius:50%;
+    
+}
+.about-txt h2{
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.about-txt p{
+    font-weight: 400;
+    font-size:18.5px;
+    color:#686868;
+    padding: 16px 0;
+    border-bottom: #f0f0f0 solid 1px;
+    position: relative;
+    padding-left: 52px;
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+}
+
+
+.location{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #F8F8F8;
+    float: left;
+    text-align: justify;
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+    
+}
+.loc-txt{
+    width:45%;
+    float:left; 
+    display: block;
+    text-indent: 50px;
+
+}
+.loc-img{
+    float:right;
+    width:50%;
+}
+.loc-img img{
+    width:95%;
+}
+.loc-txt h2{
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.loc-txt p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:18.5px;
+    color:#686868;
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+}
+
+
+.baking{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.baking h2{
+    text-align: center;
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.baking p{
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    color:#686868;
+}
+.bake{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    padding-top:40px; 
+}
+.bake img{
+    width:92%;
+}
+.bake h3{
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 22px;
+    color: #303030;
+}
+.bake p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:400;
+    font-size:17px;
+    color:#686868;
+}
+
+.contact{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #F8F8F8;
+    float: left;
+}
+.contact-txt{
+    width:45%;
+    margin-top:20px;
+    margin-bottom:20px;
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+    float: left;
+}
+.contact-txt img{
+    width:5%;
+    vertical-align:middle;
+    background-color: #8E7754;
+    border-radius:50%;
+    margin-right:10px;
+}
+.contact-img{
+    width:50%;
+     margin-top:20px;
+    margin-bottom:20px;
+    overflow: hidden;
+    
+}
+.contact-img img{
+    width:95%;
+    float: right;
+}
+.contact-txt h2{
+    font-family : 'Alegreya', serif;;
+    font-weight:400;
+    font-size: 32px;
+    color: #303030;
+}
+.contact-txt p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:18.5px;
+    color:#686868;
+    list-style: none;
+    float: left;
+    padding: 16px 0;
+    border-bottom: #f0f0f0 solid 1px;
+    position: relative;
+    padding-left: 52px;
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+    
+}
+
+
+
+
+
+.footer{
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#403D38;
+    text-decoration: none;
+    float: left;
+
+}
+.fot h3{
+    color: #FFFFFF;
+    font-family : 'Alegreya', serif;;
+    font-weight: 400;
+    font-size:18px;
+    margin-bottom:25px;
+}
+.one p{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 200%;
+    display: block;
+    text-indent: 50px;
+    
+}
+.fot{
+    float:left;
+    width:23%;
+    margin-left:24px;
+}
+.one{
+    margin: 0px;
+}
+
+.four{
+    background:url(../assign3/images/contact-details-map.png)no-repeat;
+    background-position-x: center;
+    background-position-y:120px;
+}
+.four p{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    text-decoration: none;
+    
+   
+
+}
+.four a{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    text-decoration: none;
+    padding: 16px 0;
+   
+}
+.four img{
+    width: 12%;
+    vertical-align:middle;
+}
+.arrow p{
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    text-decoration: none;
+    padding: 16px 0;
+    
+    position: relative;
+    
+}
+.arrow img{
+    width:6%;
+    vertical-align:middle;
+}
+
+.socialmedia{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #353330;
+    display:inline-block;
+    float: left;
+}
+.container{
+    text-align: center;
+}
+.copyright p{
+    color: rgb(119, 119, 119);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size:15px;
+    
+}
+.copy-links img{
+    width:3.5%;
+    margin:10px 0px;
+    background-color: #3F3D39;
+    border-radius:50%;
+    display:  inline-block;
+}
+.fb:hover{
+    color:  #ffffff;
+    background-color: #3B5998;
+}
+.google:hover{
+    color:  #ffffff;
+    background-color: #DD4B39;
+}
+.twitter:hover{
+    color:  #ffffff;
+    background-color:#00ACED;
+}
+.linkedin:hover{
+    color:  #ffffff;
+    background-color: #007BB5;
+}
+.clear{
+    clear: both;
+}
